@@ -131,6 +131,11 @@ fs.watch(path.join(__dirname, 'plugins'), (event, filename) => {
         conn.logger.warn(`deleted plugin '${dir}'`)
         return delete global.plugins[filename]
       }
+      case 'p':
+
+  client.sendPtt(from, './media/pagi.mp3', id)
+
+break
     } else conn.logger.info(`requiring new plugin '${dir}'`)
     let err = syntaxerror(fs.readFileSync(dir))
     if (err) conn.logger.error(`syntax error while loading '${dir}'\n${err}`)
