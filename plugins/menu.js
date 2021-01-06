@@ -1,7 +1,7 @@
 let handler  = async (m, { conn, usedPrefix: _p }) => {
   conn.reply(m.chat, `
-NFQ BOT 🤖
-Rec: ~Drawl Nag
+NC BOT 🤖
+Rec: ~P
 
 ➸ Prefix:  *「 ${_p} 」*
 ➸ Status: *「 Online 」*
@@ -37,6 +37,7 @@ Rec: ~Drawl Nag
 🌹${_p}hidetag <teks>
 🌹${_p}listonline [groupid]
 🌹${_p}grouplist
+🌹${_p}fitnah teks|nomor|text
 
 *「 EXPERIMENTAL 」*
 🌹*${_p}jadibot*
@@ -50,13 +51,13 @@ Jangan Lupa Scan QR
 Coded using *Vim* on Android \\w Termux
 by *@Nurutomo*
 Github: 
-https://github.com/Arya274/Arya-Bot
+https://github.com/X-PrCx12/Arya-Bot
 
 YouTube: 
-https://www.youtube.com/c/DrawlNag
+https://www.youtube.com
 
 OwNer:
-*Wa.me/6288235435804*
+*Wa.me/6281260899819*
 ==================
 `.trim(), m)
 }
