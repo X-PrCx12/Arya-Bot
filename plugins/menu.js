@@ -37,7 +37,6 @@ Rec: ~P
 🌹${_p}hidetag <teks>
 🌹${_p}listonline [groupid]
 🌹${_p}grouplist
-🌹${_p}fitnah teks|nomor|text
 
 *「 EXPERIMENTAL 」*
 🌹*${_p}jadibot*
@@ -51,8 +50,7 @@ Jangan Lupa Scan QR
 Coded using *Vim* on Android \\w Termux
 by *@Nurutomo*
 Github: 
-https://github.com/X-PrCx12/Arya-Bot
-
+https://github.com/Nurutomo
 YouTube: 
 https://www.youtube.com
 
