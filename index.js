@@ -130,25 +130,7 @@ fs.watch(path.join(__dirname, 'plugins'), (event, filename) => {
       else {
         conn.logger.warn(`deleted plugin '${dir}'`)
         return delete global.plugins[filename]
-      }
-      case 'iri':
-
-  client.sendPtt(from, './media/iri.mp3', id)
-
-break
-      }
-      case 'fitnah':	
-
-				case 'fake':          
-
-if (!isGroup) return reply(mess.only.group)
-
-arg = body.slice[11]
-
-costum(pesan, isi, pesan2)
-
-break
-    
+     } 
     } else conn.logger.info(`requiring new plugin '${dir}'`)
     let err = syntaxerror(fs.readFileSync(dir))
     if (err) conn.logger.error(`syntax error while loading '${dir}'\n${err}`)
